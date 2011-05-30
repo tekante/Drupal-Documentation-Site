@@ -1,0 +1,13 @@
+This is a project that allows for the use of drush make to create a 
+Drupal API site for use on a local codebase so that both core, 
+contributed and custom modules are indexed
+
+When indexing, if your project uses views, be sure to exclude the 
+views/docs directory
+
+To use, checkout the project and then run 
+build.sh --dev ../destination_root
+
+Note that the build.sh script was developed on OSX and makes use
+of drush, drush make and sed to make the grammar_parser project
+D6 enabled
