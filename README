@@ -11,5 +11,3 @@ build.sh --dev ../destination_root
 Note that the build.sh script was developed on OSX and makes use
 of drush, drush make and sed to make the grammar_parser project
 D6 enabled
-
-Test update for nate
